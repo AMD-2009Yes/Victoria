@@ -1,0 +1,79 @@
+/* интерактивная анимация  */
+
+.feature-element {
+  transition: 0.5s;
+}
+.feature-element:hover {
+  transform: translateY(-10px);
+}
+.feature-card {
+  transition: 0.3s;
+}
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* ! интерактивная анимация ! */
+
+/* стартовая анимация */
+
+.fall {
+  animation: fall 5s infinite;
+}
+
+@keyframes fall {
+  0%,100% {transform: translateY(25px);}
+  50% {transform: translateY(25px);}
+}
+.fly {
+  animation: fly 2s infinite;
+}
+
+@keyframes fly {
+  0%,100% {transform: translateY(-40px);}
+  50% {transform: translateY(-40px);}
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+/* ! стартовая анимация ! */
+
+/* постоянная анимация */
+
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,100% {transform: translateY(0);}
+  50% {transform: translateY(-6px);}
+}
+.loader {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: #FFF #000;
+  box-sizing: border-box;
+  animation: rotation 5s linear infinite;
+}
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* ! постоянная анимация ! */

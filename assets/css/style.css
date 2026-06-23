@@ -1,0 +1,125 @@
+body{
+    background-color: #FBFCF6;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: rgba(38, 20, 18, 0.5);
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+nav h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+nav ul{
+    display: flex;
+    padding-top: 5px;
+    list-style: none;
+    font-weight: lighter;
+}
+
+
+
+.white a{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: #79625A;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 32px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.white div{
+    width: 46px;
+    height: 46px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10px;
+    align-self: center;
+    transform: rotate(45deg);
+}
+
+
+
+.text-brown{
+    color: #79625A;
+    font-weight: bold;
+}
+.brown a{
+    background-color: #79625A;
+    border-radius: 30px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 32px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.brown div{
+    width: 46px;
+    height: 46px;
+    background-color: #79625A;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10px;
+    align-self: center;
+    transform: rotate(45deg);
+}
+
+
+.page{
+    background: #a0877f;
+    margin: 5vh;
+    color: #ffffff;
+    border: 15px solid;
+    border-color: #79625A;
+    border-radius: 5%;
+}
+.page img{
+    background: url(../images/grunge_white.jpg) center/cover no-repeat;
+    padding: 3vh;
+    margin: 7vh;
+    width: 80%;
+    max-height: 410px;
+    border-radius: 10%;
+}
+.page div{
+    background: #79625A;
+    padding: 20px;
+}
+
+
+.picture{
+    width: 40%;
+    padding: 5vh;
+    transform: rotate(5deg);
+}
+
+.ground_header{
+    background: url(../images/ground_header.png) center/cover no-repeat;
+    padding-top: 10vh;
+    padding-bottom: 30vh;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+}
+.ground_header h1{
+    font-size: 96px;
+    padding-bottom: 5vh;
+    letter-spacing: 10%;
+    font-style: italic;
+}
+.ground_header p{
+    font-size: 32px;
+    padding-bottom: 2vh;
+}
+.ground_header img{
+    transform: rotate(-7deg);
+}
+

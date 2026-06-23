@@ -1,0 +1,130 @@
+
+/* about */
+
+.about{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.about img{
+    background: url(../images/grunge_white.jpg) center/cover no-repeat;
+    border-radius: 15%;
+    margin-left: 10vh;
+    padding: 3vh;
+    padding-right: 13vh;
+}
+.about aside{
+    align-self: center;
+    padding-left: 7vh;
+    padding-right: 12vh;
+}
+
+/* ! about ! */
+
+/* line */
+
+.line{
+    background: url(../images/ground_line.png) center/cover no-repeat;
+    padding: 20vh;
+    padding-bottom: 25vh;
+}
+.line aside{
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+}
+.line div{
+    align-self: flex-start;
+}
+
+/* ! line ! */
+
+/* coffee */
+
+.coffee{
+    display: flex;
+    justify-content: space-around;
+}
+.coffee img{
+    transform: rotate(-10deg);
+    width: 25%;
+    margin: 10vh;
+}
+
+/* ! coffee ! */
+
+/* banner */
+
+.banner{
+    background: url(../images/grunge_white.jpg) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    border-radius: 20px;
+    margin: 40px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+/* ! banner ! */
+
+/* slider */
+
+.slider{
+    overflow-x: hidden;
+}
+.slider-track{
+    display: flex;
+    align-items: center;
+}
+.slide {
+    margin-right: 64px;
+    flex-shrink: 0
+}
+
+/* ! slider ! */
+
+/* hero */
+
+.hero {
+    position: relative;
+    padding-bottom: 10vh;
+    padding-top: 60vh;
+    overflow: hidden;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(../images/ground_hero.jpg) center/cover no-repeat;
+    filter: blur(2px);
+    transform: scale(1.1);
+    z-index: 0;
+}
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+.hero .container button{
+    background-color: #FBFCF6;
+    border: #FBFCF6;
+    border-radius: 20px;
+    text-align: start;
+}
+
+/* ! hero ! */
+
+.pay{
+    display: flex;
+    justify-content: space-around;
+    background: url(../images/ground_header.png) center/cover no-repeat;
+}
